@@ -1,0 +1,178 @@
+@import url(
+  'https://fonts.googleapis.com/css2?family=Poppins&display=swap'
+  );
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+
+}
+
+.wrapper h1{
+  margin-top: 45px;
+}
+
+body{
+  font-family:'Poppins', sans-serif;
+  background-image:linear-gradient(#141E30,#243B55);
+  width: 100%;
+}
+a{
+  text-decoration: none;
+}
+
+ul{
+  list-style: none;
+}
+
+
+img{
+  max-width:100%;
+  height: auto;
+}
+
+
+
+
+.card{
+  position: relative;
+  width: 256px;
+  background-color: #1e1915;
+  padding: 1.5rem 2rem 3rem;
+  border-radius: 1.5rem;
+  text-align: center;
+  box-shadow: 0 4px 16px #24140533;
+  align-items: center;
+  margin-bottom:300px;
+}
+
+
+.card-img {
+  width: 96px;
+  border-radius: 50%;
+}
+.card-border{
+  width: 110px;
+  height: 110px;
+  border: 2px solid #ea913e;
+  border-radius: 50%;
+  display: grid;
+  place-items:center;
+  margin: 0 auto .75rem;
+
+}
+
+.card-name{
+  color:#ea913e ;
+  font-size:1.125rem ;
+  font-weight:500 ;
+}
+.profession{
+  color: hsl(32, 14%, 79%);
+  font-size: .75rem;
+  font-weight: 500;
+}
+
+.card-social{
+  width: 200px;
+  background-color: #ea913e;
+  padding:.75rem;
+  border-radius: 3rem;
+  text-align: initial;
+  box-shadow:hsla(29, 75%, 56%, .3) ;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom:-1.75rem ;
+  margin: auto;
+  overflow: hidden;
+  transform-origin: 18px 17px;
+}
+
+.card-social-control{
+  position: relative;
+  transform-origin: 18px 18px;
+  transition:.45s ease;
+  transform: rotate(0);
+  transform:rotate(-135deg) ;
+ 
+  
+}
+
+.card-social-toggle{
+  display: inline-flex;
+  background-color: hsl(29, 16%, 10%);
+  color: #ea913e;
+  font-size: 1.5rem;
+  padding: .5rem;
+  border-radius: 50%;
+  cursor: pointer;
+  position: relative;
+  z-index: 1; 
+}
+.card-social-toggle :hover{
+  color: #fa0606;
+  transform: scale(1.3);
+}
+.card-social-toggle i{
+  transition: .5s;
+}
+
+.card-social-text{
+  display: block;
+  color: hsl(29, 16%, 10%);
+  font-size: .75rem;
+  font-weight: 500;
+}
+
+
+.card-social-list {
+  display: inline-flex;
+  column-gap: .75rem;
+  transform: rotate(135deg);
+  transform-origin:18px 17px ;
+  
+}
+
+
+.card-social-list .first :hover{
+  color: #1a4ab1;
+ 
+}
+.card-social-list .secound :hover{
+  color: #b6168e;
+ 
+}
+.card-social-list .third :hover{
+  color: rgb(34, 171, 27);
+ 
+}
+.card-social-list a i{
+  display: inline-flex;
+  background-color: hsl(29, 80%, 70%);
+  color: hsl(29, 16%, 10%);
+  font-size: 1.25rem;
+  padding: 6px;
+  border-radius: 50%;
+  transition: .5s;
+}
+.card-social-list a :hover{
+  transform:scale(1.5);
+ 
+}
+.card-social-text,
+.card-social-list{
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  padding-left: 3.1rem;
+}
+
+.card-social-text{
+  top: .5rem;
+}
+
+
+
